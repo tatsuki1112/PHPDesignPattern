@@ -10,7 +10,7 @@ class Listing
         $this->data_source = $data_source;
     }
 
-    function open() {lstat()
+    function open() {
         $this->data_source->open();
     }
 
